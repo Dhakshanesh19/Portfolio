@@ -20,6 +20,8 @@ function App() {
 
   return (
     <>
+ 
+
       {showHero ? (
         <div className="fade-in">
           <Hero fadeOut={fadeOut} />

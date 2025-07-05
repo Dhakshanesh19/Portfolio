@@ -1,5 +1,10 @@
 import React from 'react'
 import './Home.css'
+import Dhakshanesh from '../assets/Dhakshanesh.jpg';
+import leetcodeLogo from '../assets/leetcode.jpg';
+import linkedin from '../assets/linkedin.jpg'
+import git from '../assets/git.jpg'
+
 const Home = () => {
   return (
     <>
@@ -17,25 +22,25 @@ const Home = () => {
 
       <section className='social-card-section'>
   <div className='social-grid'>
-    <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" className="social-card github">
-      <img src="/icons/github.svg" alt="GitHub" />
+    <a href="https://github.com/Dhakshanesh19" target="_blank" rel="noopener noreferrer" className="social-card github">
+      <img src={git} alt="GitHub" />
       <div className="social-info">
         <h3>GitHub</h3>
         <p>Explore my open-source projects and contributions</p>
       </div>
     </a>
 
-    <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" rel="noopener noreferrer" className="social-card linkedin">
-      <img src="/icons/linkedin.svg" alt="LinkedIn" />
+    <a href="https://www.linkedin.com/in/dhakshanesh-rajasekaran-2694002a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="social-card linkedin">
+      <img src={linkedin} alt="LinkedIn" />
       <div className="social-info">
         <h3>LinkedIn</h3>
         <p>Connect with me professionally and view my resume</p>
       </div>
     </a>
 
-    <a href="https://leetcode.com/your-leetcode-username" target="_blank" rel="noopener noreferrer" className="social-card leetcode">
-      <img src="/icons/leetcode.svg" alt="LeetCode" />
-      <div className="social-info">
+    <a href="https://leetcode.com/u/Dhakshanesh/"  rel="noopener noreferrer" className="social-card leetcode">
+    <img src={leetcodeLogo} alt="LeetCode" />
+    <div className="social-info">
         <h3>LeetCode</h3>
         <p>Check out my problem-solving journey and rankings</p>
       </div>
@@ -67,16 +72,15 @@ const Home = () => {
           <p>Implant Training</p>
         </div>
         <div className="stat-card">
-          <h3>7.91</h3>
+          <h3>7.81</h3>
           <p>CGPA</p>
         </div>
       </div>
     </div>
     <div className="about-image">
-      <div className="emoji-ring">
-        <span role="img" aria-label="coder">👨‍💻</span>
-      </div>
-    </div>
+  <img src={Dhakshanesh} alt="Dhakshanesh" className="profile-pic" />
+</div>
+
   </div>
 </section>
 
@@ -145,20 +149,17 @@ const Home = () => {
       <h3>🏆 Hackathons</h3>
       <div className="hack-card">
         <p>
-          <strong>HACKNOVATE'25 – CSD Department</strong><br />
-          Project: KEC Student Portal UI Design<br />
-          Prize: 🥈 2nd Place — 
+          <strong></strong><br />
+          <br />
           <a href="https://www.figma.com/file-link" target="_blank" rel="noopener noreferrer">
-            View Figma Page
           </a>
         </p>
       </div>
       <div className="hack-card">
         <p>
-          <strong>AI Bytes Hackathon by BYTS</strong><br />
-          Project: Unmasking Fake Reviews using AI<br />
+          <strong></strong><br />
+         <br />
           <a href="https://github.com/project-repo" target="_blank" rel="noopener noreferrer">
-            View GitHub Repo
           </a>
         </p>
       </div>
@@ -171,7 +172,6 @@ const Home = () => {
   <h2 className="section-title">Featured Projects</h2>
   <div className="projects-grid">
     
-    {/* Project 1: Expense Tracker */}
     <div className="project-card">
       <img src="/assets/expense-tracker.png" alt="Expense Tracker" className="project-img" />
       <div className="project-content">
@@ -186,7 +186,6 @@ const Home = () => {
           <span>Express</span>
         </div>
         <div className="project-links">
-          <a href="https://expense-demo.com" target="_blank">🔗 Live Demo</a>
           <a href="https://github.com/yourrepo/expense-tracker" target="_blank">💻 Code</a>
         </div>
       </div>
@@ -207,7 +206,6 @@ const Home = () => {
           <span>Express</span>
         </div>
         <div className="project-links">
-          <a href="https://todo-demo.com" target="_blank">🔗 Live Demo</a>
           <a href="https://github.com/yourrepo/todo-list" target="_blank">💻 Code</a>
         </div>
       </div>
@@ -226,7 +224,6 @@ const Home = () => {
           <span>JavaScript</span>
         </div>
         <div className="project-links">
-          <a href="https://color-changer-demo.com" target="_blank">🔗 Live Demo</a>
           <a href="https://github.com/yourrepo/color-changer" target="_blank">💻 Code</a>
         </div>
       </div>
@@ -247,7 +244,6 @@ const Home = () => {
           <span>MongoDB</span>
         </div>
         <div className="project-links">
-          <a href="https://handcraftshop-demo.com" target="_blank">🔗 Live Demo</a>
           <a href="https://github.com/yourrepo/handcraft-shop" target="_blank">💻 Code</a>
         </div>
       </div>
