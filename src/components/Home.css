@@ -1,0 +1,328 @@
+/* ===================== MAIN SECTION ===================== */
+.main-div {
+    background-color: #0A0F24;
+    padding: 100px 20px 60px;
+    text-align: center;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+    color: #00D1B2;
+  }
+  
+  .main-div h3 {
+    font-size: 1.4rem;
+    color: #EAF4FC;
+    margin-top: 10px;
+  }
+  
+  .main-subset {
+    color: #9BAEC7;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .main-btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .btn-primary {
+    background-color: #00D1B2;
+    color: #0A0F24;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-outline {
+    border: 2px solid #00D1B2;
+    color: #00D1B2;
+    background: transparent;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-outline:hover,
+  .btn-primary:hover {
+    background-color: #00b29f;
+    color: #0A0F24;
+  }
+  
+  /* ===================== SOCIAL CARDS ===================== */
+  .social-card-section {
+    background-color: #101B39;
+    padding: 60px 20px;
+  }
+  
+  .social-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .social-card {
+    background-color: #1B2B50;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+  }
+  
+  .social-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .social-info h3 {
+    color: #00D1B2;
+    margin-bottom: 5px;
+  }
+  
+  .social-info p {
+    color: #C8D1E1;
+    font-size: 0.9rem;
+  }
+  
+  /* ===================== ABOUT SECTION ===================== */
+  .about-section {
+    background-color: #0A0F24;
+    padding: 80px 20px;
+  }
+  
+  .section-title {
+    color: #00D1B2;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-text {
+    flex: 1 1 500px;
+    max-width: 600px;
+  }
+  
+  .about-text p {
+    line-height: 1.7;
+    color: #EAF4FC;
+  }
+  
+  .stats-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  
+  .stat-card {
+    background-color: #1B2B3A;
+    color: #EAF4FC;
+    padding: 30px 40px;
+    border-radius: 16px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stat-card h3 {
+    color: #00D1B2;
+    font-size: 2.2rem;
+  }
+  
+  /* ===================== SKILLS SECTION ===================== */
+  .skills-section {
+    background-color: #101B39;
+    padding: 80px 20px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .skill-card {
+    background-color: #1B2B50;
+    padding: 25px 30px;
+    border-radius: 14px;
+    width: 280px;
+    min-height: 220px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-card h3 {
+    color: #FFC857;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+  }
+  
+  .skill-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-card li {
+    margin-bottom: 8px;
+    color: #EAF4FC;
+  }
+  
+  /* ===================== CERTIFICATION & HACKATHONS ===================== */
+  .certifications-hackathons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+  }
+  
+  .certifications,
+  .hackathons {
+    background-color: #1B2B50;
+    border-radius: 12px;
+    padding: 25px;
+    width: 480px;
+  }
+  
+  .certifications h3,
+  .hackathons h3 {
+    color: #FFC857;
+    margin-bottom: 20px;
+  }
+  
+  .cert-card,
+  .hack-card {
+    background-color: #101B39;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .cert-card h4 {
+    margin: 0;
+    color: #EAF4FC;
+  }
+  
+  .hack-card a {
+    color: #00D1B2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .hack-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ===================== PROJECTS SECTION ===================== */
+  .projects-section {
+    background-color: #0A0F24;
+    padding: 80px 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background-color: #1B2B50;
+    border-radius: 16px;
+    width: 360px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #00D1B2;
+  }
+  
+  .project-content {
+    padding: 22px;
+  }
+  
+  .project-content h3 {
+    color: #FFC857;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+  
+  .project-content p {
+    color: #C8D1E1;
+    font-size: 1rem;
+  }
+  
+  .tech-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  
+  .tech-tags span {
+    background-color: #00D1B2;
+    color: #0A0F24;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .project-links a {
+    color: #00D1B2;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .stat-card,
+    .skill-card,
+    .project-card {
+      width: 90%;
+    }
+  }
+  
