@@ -181,7 +181,7 @@
   /* ===================== ABOUT SECTION ===================== */
   .about-section {
     background-color: var(--background-dark);
-    padding: clamp(60px, 10vw, 100px) 30px;
+    padding: clamp(140px, 15vw, 200px) 40px; /* Increased height */
   }
   
   .section-title {
